@@ -15,4 +15,4 @@ experimental=False
 deprecated=False
 tags=grid, cell grid, AOI, GIS, QGIS, geographic grid, shapefile, cell creator
 about=Cell Grid Creator is a QGIS plugin for creating standardized geographic grid cells within a selected AOI. Users can select the required grid scale, browse supported AOI formats, and generate the corresponding grid automatically. The plugin creates cell identifiers, coordinates, codes, export information, and cell names, and saves the generated grid as an ESRI Shapefile in a CELL_GRID output folder.
-changelog=Version 1.0.00 - Cell Grid Creator with multiple grid scale options, AOI-based grid extraction, standardized cell attributes, and automatic Shapefile output.
+changelog=Version 1.0.01 - Cell Grid Creator with multiple grid scale options, AOI-based grid extraction, standardized cell attributes, and automatic Shapefile output.
