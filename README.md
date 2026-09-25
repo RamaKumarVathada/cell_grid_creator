@@ -1,4 +1,4 @@
-# Cell Grid Creator — QGIS Plugin (v1.0)
+# Cell Grid Creator — QGIS Plugin (v1.0.01)
 
 **Cell Grid Creator** is a QGIS plugin designed to automatically generate standardized geographic degree grid coverage bounded by a selected Area of Interest (AOI). It processes various spatial input formats, calculates detailed grid cell attributes, and exports the final layer into an organized directory structure.
 
