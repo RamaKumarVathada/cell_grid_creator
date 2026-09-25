@@ -6,7 +6,7 @@ Users can select the required grid scale, browse supported AOI formats, and gene
 The plugin creates cell identifiers, coordinates, codes, export information, and cell names, 
 and saves the generated grid as an ESRI Shapefile in a CELL_GRID output folder.
 
-Version: 1.0 (Generate Cell Grid Coverage by AOI)
+Version: 1.0.01 (Generate Cell Grid Coverage by AOI)
 Author: Rama Kumar Vathada
 """
 
@@ -33,7 +33,7 @@ from processing.core.Processing import Processing
 class DegreeGridGeneratorDialog(QDialog):
     def __init__(self, geojson_data=None, parent=None):
         super(DegreeGridGeneratorDialog, self).__init__(parent)
-        self.setWindowTitle("Cell Grid Creator (v1.0)")
+        self.setWindowTitle("Cell Grid Creator (v1.0.01)")
         self.resize(520, 260)
         self.geojson_data = geojson_data
         
